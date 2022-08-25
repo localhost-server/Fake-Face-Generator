@@ -3,7 +3,8 @@ import cv2
 import numpy as np
 import asyncio as a
 
-loop=a.get_event_loop()
+a.set_event_loop_policy(None)#get_event_loop()
+loop=a.new_event_loop()
 def facegen():
     img= loop.run_until_complete(get_online_person())#.close()
 
