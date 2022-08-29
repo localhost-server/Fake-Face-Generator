@@ -1,3 +1,2 @@
-numpy
 thispersondoesnotexist
 opencv-python
