@@ -15,9 +15,11 @@ def Make_new_Face():
     # return img.show()
 
 def show():
-    return st.image('face.png',caption="This is a computer generated image")
+    return st.image('face.png')
     
 def START(START=None):
+    st.title('Fake Face Generator')
+    st.header("This is a computer generated image")
     if st.button("Generate Face"):
         Make_new_Face()
         return show()
