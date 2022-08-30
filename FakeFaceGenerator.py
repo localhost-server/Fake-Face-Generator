@@ -20,11 +20,13 @@ def show():
 def START(START=None):
     Make_new_Face()
     return show()
+
+if __name__ == "__main__":
+    START()
+    
 # def facegen():
 #     img= loop.run_until_complete(get_online_person())#.close()
 
 #     img=Image.frombytes(img)
 #     img=Image.imshow(img)
-if __name__ == "__main__":
-    START()
 # facegen()
