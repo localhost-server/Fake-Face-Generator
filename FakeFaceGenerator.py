@@ -18,6 +18,6 @@ def Make_new_Face(START=None):
 
 #     img=Image.frombytes(img)
 #     img=Image.imshow(img)
-    
-Make_new_Face()
+if __name__ == "__main__":
+    Make_new_Face()
 # facegen()
