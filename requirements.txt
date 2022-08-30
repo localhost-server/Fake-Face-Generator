@@ -1,2 +1,2 @@
 thispersondoesnotexist
-opencv-python
+pillow
