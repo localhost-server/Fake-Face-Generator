@@ -23,10 +23,3 @@ def START(START=None):
 
 if __name__ == "__main__":
     START()
-    
-# def facegen():
-#     img= loop.run_until_complete(get_online_person())#.close()
-
-#     img=Image.frombytes(img)
-#     img=Image.imshow(img)
-# facegen()
