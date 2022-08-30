@@ -6,7 +6,7 @@ import base64
 import streamlit as st 
 
 def Make_new_Face(START=None):
-    a.set_event_loop_policy(a.WindowsSelectorEventLoopPolicy())#get_event_loop()
+    a.set_event_loop_policy(a.DefaultEventLoopPolicy())#get_event_loop()
     loop=a.new_event_loop()
     bytedata = loop.run_until_complete(get_online_person())
     img=Image.open(io.BytesIO(bytedata))
