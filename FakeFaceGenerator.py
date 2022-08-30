@@ -15,7 +15,7 @@ def Make_new_Face(START=None):
     # return img.show()
 
 def show():
-    return st.image('face.png')
+    return st.image('face.png',caption="This is a computer generated image")
     
 # def facegen():
 #     img= loop.run_until_complete(get_online_person())#.close()
