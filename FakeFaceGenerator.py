@@ -18,8 +18,9 @@ def show():
     return st.image('face.png',caption="This is a computer generated image")
     
 def START(START=None):
-    Make_new_Face()
-    return show()
+    if st.button("Generate Face"):
+        Make_new_Face()
+        return show()
 
 if __name__ == "__main__":
     START()
