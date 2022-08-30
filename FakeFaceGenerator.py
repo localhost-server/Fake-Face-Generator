@@ -11,9 +11,11 @@ def Make_new_Face(START=None):
     bytedata = loop.run_until_complete(get_online_person())
     img=Image.open(io.BytesIO(bytedata))
     img.save("face.png")
-    st.image('face.png')
     # return img.show()
     loop.close()
+
+def show():
+    st.image('face.png')
 # def facegen():
 #     img= loop.run_until_complete(get_online_person())#.close()
 
@@ -21,4 +23,5 @@ def Make_new_Face(START=None):
 #     img=Image.imshow(img)
 if __name__ == "__main__":
     Make_new_Face()
+    show()
 # facegen()
