@@ -23,6 +23,3 @@ def START(START=None):
     if st.button("Generate Face"):
         Make_new_Face()
         return show()
-
-if __name__ == "__main__":
-    START()
