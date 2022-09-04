@@ -35,4 +35,4 @@ def START(START=None):
         return show()
 
 if __name__ == '__main__':
-    g.START()
+    START()
