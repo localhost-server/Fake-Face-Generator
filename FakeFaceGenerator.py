@@ -1,9 +1,9 @@
 def imports():
-    """The function get_online_person in library thispersondoesnotexist calls api and collects data from server in byte format"""
-    """PIL library is used to do manipulation with image data"""
-    """[Check Here](https://docs.python.org/3/library/asyncio.html?highlight=asyncio#module-asyncio)"""
-    """The io module deals with various types of I/O in python. There are three main types of I/O: text I/O, binary I/O and raw I/O."""
-    """Streamlit has been used to give our app a web interface."""
+    """The function get_online_person in library thispersondoesnotexist calls api and collects data from server in byte format. \n 
+    PIL library is used to do manipulation with image data. \n 
+    [Check Here](https://docs.python.org/3/library/asyncio.html?highlight=asyncio#module-asyncio). \n
+    The io module deals with various types of I/O in python. There are three main types of I/O: text I/O, binary I/O and raw I/O. \n 
+    Streamlit has been used to give our app a web interface."""
     from thispersondoesnotexist import get_online_person
     from  PIL import Image
     import asyncio as a
