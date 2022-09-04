@@ -62,7 +62,8 @@ f.aface()
 ## Running the Daisi App
 
 You can also do this by [Running the Daisi App](https://app.daisi.io/daisies/kali/Artificial%20Face%20Generator/app)
-Get clone the GitHub repo [Here](https://github.com/localhost-server/Fake-Face-Generator)
+
+You can check the GitHub repository [Here](https://github.com/localhost-server/Fake-Face-Generator)
 
 ## References
 
