@@ -21,8 +21,12 @@ def Make_new_Face():
     # return img.show()
 
 def aface():
-    Make_new_Face()
-    print("Your artificaial face has been generated and saved as face.png :)")
+    a.WindowsSelectorEventLoopPolicy()#set_event_loop_policy(a.WindowsSelectorEventLoopPolicy)#get_event_loop()
+    loop=a.new_event_loop()
+    bytedata = loop.run_until_complete(get_online_person())
+    loop.close()
+    img=Image.open(io.BytesIO(bytedata))
+    return img.show()
 
 def show():
     return st.image('face.png')
