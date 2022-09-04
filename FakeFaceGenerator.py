@@ -8,7 +8,6 @@ from thispersondoesnotexist import get_online_person
 from  PIL import Image
 import asyncio as a
 import io
-# import base64
 import streamlit as st 
 
 def Make_new_Face():
@@ -21,7 +20,7 @@ def Make_new_Face():
     # return img.show()
 
 def aface():
-    a.get_event_loop_policy()#set_event_loop_policy(a.WindowsSelectorEventLoopPolicy)#get_event_loop()
+    a.get_event_loop_policy()
     loop=a.new_event_loop()
     bytedata = loop.run_until_complete(get_online_person())
     loop.close()
