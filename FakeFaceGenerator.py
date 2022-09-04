@@ -31,8 +31,8 @@ def aface():
     loop=a.new_event_loop()
     bytedata = loop.run_until_complete(get_online_person())
     loop.close()
-    img=Image.open(io.BytesIO(bytedata))
-    return img.show()
+    #img=Image.open(io.BytesIO(bytedata))
+    return Image.open(io.BytesIO(bytedata))#img.show()
 
 def show():
     """This function will display our newly generated image on webpage."""
