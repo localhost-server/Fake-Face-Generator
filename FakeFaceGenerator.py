@@ -21,7 +21,7 @@ def Make_new_Face():
     # return img.show()
 
 def aface():
-    a.WindowsSelectorEventLoopPolicy()#set_event_loop_policy(a.WindowsSelectorEventLoopPolicy)#get_event_loop()
+    a.get_event_loop_policy()#set_event_loop_policy(a.WindowsSelectorEventLoopPolicy)#get_event_loop()
     loop=a.new_event_loop()
     bytedata = loop.run_until_complete(get_online_person())
     loop.close()
