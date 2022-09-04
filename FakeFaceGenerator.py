@@ -1,3 +1,7 @@
+import generator as g
+
+if __name__ == '__main__':
+    g.START()
 from thispersondoesnotexist import get_online_person
 from  PIL import Image
 import asyncio as a
