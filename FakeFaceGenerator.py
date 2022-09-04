@@ -13,6 +13,9 @@ def Make_new_Face():
     return img.save("face.png")
     # return img.show()
 
+def showimage():
+    return Image.open('face.png').show()
+
 def aface():
     a.get_event_loop_policy()
     loop=a.new_event_loop()
