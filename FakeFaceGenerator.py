@@ -1,7 +1,12 @@
+"""The function get_online_person in library thispersondoesnotexist calls api and collects data from server in byte format""" 
 from thispersondoesnotexist import get_online_person
+"""PIL library is used to do manipulation with image data"""
 from  PIL import Image
+"""[Check Here](https://docs.python.org/3/library/asyncio.html?highlight=asyncio#module-asyncio)"""
 import asyncio as a
+"""The io module deals with various types of I/O in python. There are three main types of I/O: text I/O, binary I/O and raw I/O."""
 import io
+"""Streamlit has been used to give our app a web interface."""
 import streamlit as st 
 
 def Make_new_Face():
