@@ -67,5 +67,5 @@ You can check the GitHub repository [Here](https://github.com/localhost-server/F
 
 ## References
 
-[Try out more cool stuffs here and explore](https://thisxdoesnotexist.com/)
+[Try out more cool stuff here](https://thisxdoesnotexist.com/)
 
