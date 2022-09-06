@@ -46,7 +46,7 @@ import FakeFaceGenerator as f
 
 To save the image
 ```bash
-f.Make_new_Face()
+f.saveImage()
 ```
 
 To open the saved image
@@ -56,7 +56,7 @@ f.showimage()
 
 To display as new image
 ```bash
-f.aface()
+f.aFace().show()
 ```
 
 ## Running the Daisi App
