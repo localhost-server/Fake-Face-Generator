@@ -35,7 +35,7 @@ afg = pyd.Daisi("kali/Artificial Face Generator")
 
 To generate an image
 ```bash
-img = a.aFace().value
+img = afg.aFace().value
 ```
 
 To save the image
@@ -50,7 +50,7 @@ img.show()
 
 To see an image without saving
 ```
-a.aFace().value.show()
+afg.aFace().value.show()
 ```
 
 ## Calling the Daisi manually
