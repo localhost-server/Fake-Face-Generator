@@ -13,16 +13,47 @@ This Daisi requires python3 installed on pc with added into path. Next you requi
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install python libraries
 ```bash
-pip install thispersondoesnotexist pillow streamlit
+pip install pydaisi thispersondoesnotexist pillow streamlit
 ```
 
-Clone the repository 
+Clone the repository for manual usage
 ```bash
 git clone https://github.com/localhost-server/Fake-Face-Generator.git
 ```
 
+## Calling the Daisi using Pydaisi in python/ipython
 
-## Calling the Daisi
+Import the PyDaisi module
+```bash
+import pydaisi as pyd
+```
+
+Call the Daisi inside a variable
+```bash
+afg = pyd.Daisi("kali/Artificial Face Generator")
+```
+
+To generate an image
+```bash
+img = a.aFace().value
+```
+
+To save the image
+```bash
+img.save('name_of_image')
+```
+
+To see the saved image
+```bash
+img.show()
+```
+
+To see an image without saving
+```
+a.aFace().value.show()
+```
+
+## Calling the Daisi manually
 
 Get into Fake-Face-Generator dir
 ```bash
@@ -46,7 +77,7 @@ import FakeFaceGenerator as f
 
 To save the image
 ```bash
-f.saveImage()
+f.saveImage("name_of_image")
 ```
 
 To open the saved image
