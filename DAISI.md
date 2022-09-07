@@ -40,7 +40,7 @@ img = afg.aFace().value
 
 To save the image
 ```bash
-img.save('name_of_image')
+img.save('name_of_image.png')
 ```
 
 To see the saved image
@@ -77,7 +77,7 @@ import FakeFaceGenerator as f
 
 To save the image
 ```bash
-f.saveImage("name_of_image")
+f.saveImage("name_of_image.png")
 ```
 
 To open the saved image
