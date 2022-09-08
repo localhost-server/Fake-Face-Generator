@@ -29,7 +29,7 @@ def showimage(name_of_image='face.png'):
 
 def show():
     """This function will display our newly generated image on webpage."""
-    return st.image('face.png',use_column_width=True)
+    return st.image('face.png')
     
 def START(START=None):
     """In this function streamlit has been used to give our app a web interface."""
