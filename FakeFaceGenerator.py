@@ -33,8 +33,8 @@ def show():
     
 def START(START=None):
     """In this function streamlit has been used to give our app a web interface."""
-    st.title('Fake Face Generator')
-    st.header('This is a computer generated image')
+    st.title('Artificial Face Generator')
+    st.header('This is an Artificially generated image')
     if st.button('Generate Face'):
         saveImage()
         return show()
