@@ -3,6 +3,10 @@ from  PIL import Image
 import asyncio as a
 import io
 import streamlit as st 
+st.set_page_config(
+    page_title='Artificial Face Generator',
+    layout="wide",
+    initial_sidebar_state="expanded", )
 
 def aFace():
     """
